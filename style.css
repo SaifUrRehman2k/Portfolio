@@ -1,8 +1,10 @@
 .hero-section {
-    height: 34em !important;
-
+    height: 24em !important;
 }
-
+/* .aboutMe {	
+    background-color: var(--bs-primary-bg-subtle);
+    box-shadow: 0px 8px 18px var(--bs-tertiary-color), 0px -2px 4px inset var(--bs-tertiary-bg);
+} */
 .hero-section .container {
     height: 100% !important;
 
@@ -14,6 +16,7 @@
         }
     }
 }
+
 
 .contact-wrapper {
     background: white;
