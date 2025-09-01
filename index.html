@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="https://kit.fontawesome.com/d37643230b.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -16,25 +17,25 @@
 
 <body class="bg-secondary-subtle">
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid  d-flex flex-row justify-content-between">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid  d-flex flex-row justify-content-between align-items-end gap-5">
+            <a class="navbar-brand fs-2" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex flex-row justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <li class="nav-item py-1">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                    <li class="nav-item py-1">
+                        <a class="nav-link" href="#about">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                    <li class="nav-item py-1">
+                        <a class="nav-link" href="#pricing">Pricing</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <li class="nav-item py-1">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +47,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 heroText d-flex flex-column align-items-start justify-content-center">
-                    <h1 class="hero-title mb-0 text-light">Saif-ur-Rehman</h1>
+                    <h1 class="hero-title display-1 mb-0 text-light" style="font-size: 60px;">Saif-ur-Rehman</h1>
                     <p class="hero-description mb-5 text-light">Front-end Developer, UI/UX Designer</p>
                     <a href="https://export-download.canva.com/oYEQ0/DAGhrqoYEQ0/31/0-6348300407081851378.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250830T111221Z&X-Amz-Expires=40913&X-Amz-Signature=e953cf102642dbe24334451383355e26affa8d9c3d8e7d81c925c246ffbe1b4f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Modern%2520Minimalist%2520CV%2520Resume.pdf&response-expires=Sat%2C%2030%20Aug%202025%2022%3A34%3A14%20GMT"
                         class="btn btn-outline-light btn-sm" target="_blank">Download Resume</a>
@@ -60,20 +61,22 @@
     </section>
 
     <br><br><br><br><br>
-    <section class="aboutMe py-5">
+    <section class="aboutMe py-5" id="about">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h1 class="mb-0 fw-normal display-1">About me</h1>
-                    <p class="text-muted mb-0 fs-3 lh-sm mb-2">Passionate front-end developer with strong skills in HTML, CSS, &
+                    <p class="text-muted mb-0 fs-3 lh-sm mb-2">Passionate front-end developer with strong skills in
+                        HTML, CSS, &
                         JavaScript. </p>
-                    <p class="mb-4 fs-5 text-body-tertiary lh-sm">along with a certification in web development. Experienced in building responsive
+                    <p class="mb-4 fs-5 text-body-tertiary lh-sm">along with a certification in web development.
+                        Experienced in building responsive
                         websites using WordPress and currently expanding knowledge in React.js.</p>
-                   
+
 
                 </div>
                 <div class="col-lg-6 d-flex flex-column gap-5">
-                     <div class="row text-center">
+                    <div class="row text-center">
                         <a style="text-decoration: none;" class="col-4">
                             <h4 class="fw-bold text-primary">12</h4>
                             <small class="text-muted">Projects</small>
@@ -91,17 +94,23 @@
                     <div class="progress-stacked" style="height: 2em;">
                         <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="15"
                             aria-valuemin="0" aria-valuemax="100" style="width: 55%; height: 100%;">
-                            <div class="progress-bar text-dark py-1 bg-warning" >JavaScript</div>
+                            <div class="progress-bar text-dark py-1 bg-warning">55%</div>
                         </div>
                         <div class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="30"
                             aria-valuemin="0" aria-valuemax="100" style="width: 30%; height: 100%;">
-                            <div class="progress-bar text-dark py-1 bg-danger">UI/UX</div>
+                            <div class="progress-bar py-1 bg-danger">30%</div>
                         </div>
                         <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20"
                             aria-valuemin="0" aria-valuemax="100" style="width: 15%; height: 100%;">
-                            <div class="progress-bar text-dark py-1 bg-info">React.JS</div>
+                            <div class="progress-bar text-dark py-1 bg-info">15%</div>
                         </div>
                     </div>
+                    <div class="col-lg-6 d-flex flex-row gap-1">
+                        <span class="badge text-bg-warning">JavaScript</span>
+                        <span class="badge text-bg-danger">UI/UX</span>
+                        <span class="badge text-bg-info">React.JS</span>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -109,7 +118,7 @@
 
     <br><br><br><br><br>
 
-    <div class="container py-5">
+    <div class="container py-5" id="pricing">
         <h2 class="text-center mb-5">Choose Your Perfect Plan</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <!-- Basic Plan -->
@@ -251,7 +260,7 @@
 
     <br><br><br><br><br>
 
-    <div class="container py-5">
+    <div class="container py-5" id="contact">
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="contact-wrapper">
@@ -284,7 +293,7 @@
 
                                 <div class="contact-item">
                                     <div class="contact-icon">
-                                        <i class="fas fa-envelope"></i>
+                                        <i class="fas fa-envelope" style="--fa-primary-color: gold;"></i>
                                     </div>
                                     <div>
                                         <h6 class="mb-0">Email</h6>

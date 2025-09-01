@@ -217,3 +217,18 @@
     padding-top: 20px;
     border-top: 1px solid #eee;
 }
+
+@media (max-width: 770px) {
+    .hero-section {
+        height: max-content !important;
+        .container > div {
+            flex-flow: column wrap !important;
+            gap: 2em;
+        }
+    }
+    .aboutMe {
+        .container > div {
+            gap: 2em;
+        }
+    }
+}
